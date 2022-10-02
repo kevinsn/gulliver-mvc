@@ -19,39 +19,28 @@
     <body>   
         <header>
         <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-light nav-color">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./assets/img/logo1.svg" alt=""></a>
+                    <a class="navbar-brand" href="login.jsp"><img class="img-fluid" src="./assets/img/logo1.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <div class="ms-auto"></div>
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse navbar-itens-color" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Hospedagem</a>
                             </li>
+			              	<li class="nav-item">
+			                	<a class="nav-link" href="#">Aluguel de Carros</a>
+			              	</li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Gastronomia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Alugar Carros</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Mais
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Dicas Úteis</a></li>
-                                    <li><a class="dropdown-item" href="#">Como Chegar</a></li>
-                                    <li><a class="dropdown-item" href="#">Vida Noturna</a></li>
-                                    <li><a class="dropdown-item" href="#">Cultura</a></li>
-                                    <li><a class="dropdown-item" href="#">Entretenimento</a></li>
-                                </ul>
-                            </li>
+              				<a class="nav-link" href="#">Contato</a>
+              				</li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +49,9 @@
     	</header>
 
         <div class="container my-5">
-            <div class="text-center">
+        
+      	<div class="row pt-5 pb-5">
+            <div class="row justify-content-center px-3">
                 <img src="./assets/img/login.png" class="logo" alt="">
             </div>
 
@@ -91,6 +82,7 @@
                     </form>
                 </div>
             </div>
+      		</div>
         </div>
         
 		<footer>
