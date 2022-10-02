@@ -11,6 +11,9 @@
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 	    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
 	    crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+		</script>
 	    <link rel="stylesheet" href="./assets/css/styles.css">
 	
 	    <title>Traveller MVC</title>
@@ -48,14 +51,14 @@
         </div>
     	</header>
 
-        <div class="container my-5">
+        <div class="container my-4">
         
-      	<div class="row pt-5 pb-5">
-            <div class="row justify-content-center px-3">
+      	<div class="row pt-3 pb-3">
+            <div class="row justify-content-center">
                 <img src="./assets/img/login.png" class="logo" alt="">
             </div>
 
-            <div class="row justify-content-center px-3">
+            <div class="row justify-content-center">
                 <div class="col-12 col-sm-12 col-md-3 align-self-center">
                     <form method="post" action="./login" >
 

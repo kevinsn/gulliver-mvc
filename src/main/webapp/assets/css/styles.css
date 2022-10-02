@@ -71,7 +71,7 @@ header{
 .login:hover{
     background-color: rgb(255, 255, 255);
     color: black;
-   cursor: pointer;
+    cursor: pointer;
 }
 .logo {
     width: 25rem;
@@ -80,20 +80,22 @@ header{
 .barra-login{
     width: 100%!important;
 }
-.barra-login input{
+.barra-login input, .alterar, .gravar{
     border-top-left-radius: 35px!important;
     border-bottom-left-radius: 35px!important;
     border-top-right-radius: 35px!important;
     border-bottom-right-radius: 35px!important;
 }
-.cor__fundo {
-    background-color: #2973D3;
-}
 
-.meu__header {
+.alterar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.gravar {
+	background-color: var(--orange-p);
+	margin: 8px;
 }
 
 .titulos {
@@ -126,7 +128,7 @@ header{
 }
 .final-rodape{
     position: fixed;
-    height: 60px;
+    height: 2rem;
     width: 100%;
     bottom: 0;
     background-color: var(--blue-p);

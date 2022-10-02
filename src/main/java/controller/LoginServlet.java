@@ -49,11 +49,11 @@ public class LoginServlet extends HttpServlet {
 		if(email.equals("gulliver@traveller.com") && password.equals("123")) {
 			User result = new User();
 			
-			result.setName("Nome sobrenome");
-			result.setBirthDate(LocalDate.of(2000, 1, 1));
+			result.setName("Nome Sobrenome");
 			result.setEmail("email@email.com");
-			result.setGender("1");
 			result.setPassword("123");
+			result.setBirthDate(LocalDate.of(2000, 1, 1));
+			result.setGender("1");
 			result.setPhoto(".\\assets\\images\\user.png");
 			result.setLasAccess(LocalDate.of(2022, 1, 1));
 			
