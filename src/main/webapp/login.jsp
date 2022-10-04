@@ -24,7 +24,7 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg navbar-light nav-color">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="login.jsp"><img class="img-fluid" src="./assets/img/logo1.svg" alt=""></a>
+                    <a class="navbar-brand" href="index.jsp"><img class="img-fluid" src="./assets/img/logo1.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -95,7 +95,5 @@
 	            </div>                    
 	        </div>
 	    </footer>
-
-        <script src="./assets/js/show_password.js"></script>
     </body>
 </html>

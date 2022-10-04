@@ -98,6 +98,145 @@ header{
 	margin: 8px;
 }
 
+.barra-busca{
+    width: 75%!important;
+    height: 20%!important;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.barra-busca input{
+    border-top-left-radius: 35px!important;
+    border-bottom-left-radius: 35px!important;
+}
+
+.barra-busca button{
+    border-top-right-radius: 35px!important;
+    border-bottom-right-radius: 35px!important;
+    background-color: var(--orange-p);
+    color: var(--white-p);
+    font-weight: 300;
+}
+
+.custom-shape-divider-top-1653697456 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -1%!important;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1653697456 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-top-1653697456 .shape-fill {
+    fill: var(--blue-p);
+}
+
+/* Serviços */
+
+.imgHospedagem{
+  /* border: 1px solid red; */
+  width: 224px;
+  height: 240px;
+  background-image: url(../img/servicos.png);
+  background-position: 4px 15px;
+  background-repeat: no-repeat;
+}
+
+.imgAluguel{
+  /* border: 1px solid red; */
+  width: 224px;
+  height: 240px;
+  background-image: url(../img/servicos.png);
+  background-position: -448px 15px;
+  background-repeat: no-repeat;
+}
+
+.imgRefeicoes{
+  /* border: 1px solid red; */
+  width: 224px;
+  height: 240px;
+  background-image: url(../img/servicos.png);
+  background-position: -880px 15px;
+  background-repeat: no-repeat;
+}
+
+/* Hotéis */
+
+.hospedagens{
+    background-color: var(--orange-p);
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.borda-titulo{
+    width: 350px;
+    height: 42px;
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    background-color: var(--blue-p);
+    border-radius: 35px;
+}
+
+.borda-titulo h2{
+    font-size: 1.5rem;
+    color: var(--white-p);
+}
+
+.card{
+    background-color: transparent!important;
+    border-radius: 35px!important;
+}
+
+.card img{
+    border-radius: 35px;
+
+}
+
+/* Contato */
+
+.contato{
+    color:  #F28907; 
+    font-weight: 800; 
+    font-size: 35px;
+}
+
+.formulario-contato h2{
+    font-size: 2rem;
+    font-weight: 900;
+    
+    color: var(--orange-p);
+}
+
+.formulario-contato input, textarea{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+
+.email{
+    height: 55px;
+    padding: 1.5rem;
+}
+
+.mensagem{
+    height: 180px;
+    padding: 1.5rem;
+    resize: none;
+}
+
 .titulos {
     color: #2973D3;
 }
