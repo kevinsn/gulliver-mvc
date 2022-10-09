@@ -16,7 +16,7 @@
 		</script>
 	    <link rel="stylesheet" href="./assets/css/styles.css">
 	
-	    <title>Traveller MVC</title>
+	    <title>Gulliver Traveller</title>
 	</head>
 	
     <body>   
